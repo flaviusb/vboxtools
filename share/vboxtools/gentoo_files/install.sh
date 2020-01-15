@@ -26,6 +26,7 @@ rc-update add net.eth0 default
 rc-update add syslog-ng default
 rc-update add cronie default
 rc-update add sshd default
+rc-update add dbus default
 rc-update add ntpd default
 echo PermitRootLogin prohibit-password >> /etc/ssh/sshd_config
 
