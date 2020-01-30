@@ -5,4 +5,4 @@ sudo rc-update add xdm default
 
 echo "exec startxfce4" > ~/.xinitrc
 
-sudo sed -e "s/^DISPLAYMANAGER="xdm"$/DISPLAYMANAGER="lightdm"/" -i /etc/conf.d/xdm
+sudo sed -e 's/^DISPLAYMANAGER="xdm"$/DISPLAYMANAGER="lightdm"/' -i /etc/conf.d/xdm
